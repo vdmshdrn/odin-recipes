@@ -104,9 +104,25 @@ figure p {
 
 .recipe_pages {
     background-color: #F2F3F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1680px;
+    margin: auto;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .recipe_pages_pict {
-    width: 600px;
+    width: 700px;
     height: 600px;
+    margin-right: 10px;
+}
+.description {
+    width: 50%;
+    margin-left: 10px;
 }
